@@ -1,0 +1,15 @@
+# Backyard HF station: example input for feedline
+# Settings are key = value. Band lines are: band NAME [MHZ] [swr=X]
+
+name = Backyard dipole
+vf = 0.95
+cable = LMR-400
+run_ft = 60
+swr_limit = 2.0
+loss_limit_db = 2.5
+
+band 40m swr=1.4
+band 20m swr=1.2
+band 15m swr=1.8
+band 10m swr=2.6
+band 6m
